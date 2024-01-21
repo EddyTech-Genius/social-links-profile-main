@@ -12,11 +12,14 @@ body {
   min-height: 100vh;
   color: white;
   background-color: hsl(0, 0%, 8%);
+  font-family: "Inter", sans-serif;
 }
 
 .card {
   background-color: hsl(0, 0%, 12%);
-  padding: 20px;
+  padding: 25px;
+  height: 460px;
+  border-radius: 10px;
 }
 
 .head {
@@ -25,6 +28,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 2px;
+  font-size: 14px;
 }
 
 .image {
@@ -43,10 +47,26 @@ body {
 }
 
 button {
-  width: 90%;
+  width: 95%;
   color: white;
   background-color: hsl(0, 0%, 20%);
   border: none;
   padding: 10px;
   border-radius: 5px;
+  font-weight: 700;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.quote{
+    margin-top: 20px;
+    font-size: 12.5px;
+    opacity: 0.8;
+    letter-spacing: -0.3px;
 }
