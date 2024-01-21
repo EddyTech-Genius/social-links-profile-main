@@ -74,3 +74,7 @@ button {
 .above{
     font-size: 22px;
 }
+
+.color{
+    color: hsl(75, 94%, 57%);
+}
